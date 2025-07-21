@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shivarth's Birthday</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff0f5, #ffe4b5);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .photo-frame {
+      background: #fff8dc;
+      border: 8px solid gold;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+      padding: 20px;
+      max-width: 350px;
+      text-align: center;
+    }
+
+    .photo-frame img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .caption {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #d2691e;
+    }
+
+    .caption span {
+      font-weight: bold;
+      color: #b22222;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="photo-frame">
+    <img src="your-image-path.jpg" alt="Shivarth's Cute Photo">
+    <div class="caption">
+      Happy 1st Birthday, <span>Shivarth</span>! 🎉🎂
+    </div>
+  </div>
+
+</body>
+</html>
